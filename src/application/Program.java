@@ -17,9 +17,9 @@ public class Program {
 		double c = prod.circumference(radius);
 		double v = prod.volume(radius);
 		
-		System.out.printf("Circumference: %.2f%n", c);
+		System.out.printf("Circumferencia: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
-		System.out.printf("PI value: %.2f%n", prod.PI);
+		System.out.printf("valor PI: %.2f%n", prod.PI);
 
 		sc.close();
 	}
